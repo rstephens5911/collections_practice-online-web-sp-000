@@ -7,3 +7,9 @@ def sort_array_desc(ints)
     b <=> a
   end
 end
+
+def sort_array_char_count(strings)
+  strings.sort do |a, b|
+    a.length <=> b.length
+  end
+end
