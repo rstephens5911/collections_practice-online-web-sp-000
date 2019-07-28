@@ -54,7 +54,7 @@ def add_s(array)
   # add an "s" to each element in the array except [1]
   i = 0
   while i < array.length
-    array << "s"
+    array << array[i] + "s"
     i = i + 1
   end
   return array
