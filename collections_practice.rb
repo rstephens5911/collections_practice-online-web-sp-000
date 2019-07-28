@@ -57,5 +57,5 @@ def add_s(array)
     array << "s"
     i = i + 1
   end
-  array
+  return array
 end
