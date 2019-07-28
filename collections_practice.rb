@@ -26,4 +26,3 @@ def reverse_array(ints)
     b <=> a
   end
 end
-    
