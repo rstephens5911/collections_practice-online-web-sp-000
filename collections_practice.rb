@@ -20,4 +20,3 @@ def swap_elements(array)
     array[2] = temp1
     array
   end
-
