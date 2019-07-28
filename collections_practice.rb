@@ -36,6 +36,6 @@ def find_a(array)
   array_b = []
   array.each do |word|
     array_b << word.start_with?("a")
-    return array_b
   end
+  return array_b
 end
