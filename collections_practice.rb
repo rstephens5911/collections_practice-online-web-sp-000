@@ -32,4 +32,10 @@ def kesha_maker(array)
   return array
 end
 
+def find_a(array)
+  array|word| do
+    word.start_with?("a") 
+    return array
+  end
+end
   
