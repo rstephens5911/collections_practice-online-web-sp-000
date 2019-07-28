@@ -24,7 +24,6 @@ def swap_elements(array)
 def reverse_array(ints)
   ints.sort do |a, b|
     b <=> a
-    ints
   end
 end
     
