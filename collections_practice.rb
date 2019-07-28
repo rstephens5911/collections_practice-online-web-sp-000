@@ -41,3 +41,11 @@ def find_a(array)
   end
   return array_b
 end
+
+def sum_array(array)
+  sum = 0
+  array.each do |int|
+    sum = sum + int
+  end
+  return sum
+end
