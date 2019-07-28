@@ -53,6 +53,8 @@ end
 def add_s(array)
   # add an "s" to each element in the array except [1]
   array.map do |word|
-    word + "s"
+    if array.index != 1
+      word + "s"
+    end
   end
 end
